@@ -39,7 +39,6 @@ func main() {
 				for _, val := range data {
 					items = append(items, model.AlfredItem{
 						Title:    val.Text,
-						Icon:     model.Icon{Path: "./icon.svg"},
 						Subtitle: query,
 						Arg:      val.Text,
 					})
